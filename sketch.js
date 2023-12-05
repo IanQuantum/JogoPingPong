@@ -140,7 +140,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(1200, 600);
+    createCanvas(1000, 500);
     bola = new Bola();
     jogador = new Raquete(30);
     computador = new Raquete(width - 30 - 10);
